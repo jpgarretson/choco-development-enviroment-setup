@@ -48,8 +48,8 @@ choco install microsoftazurestorageexplorer -y
 
 # text editors
 Write-Host "====> Installing text editors..."
-choco install sublimetext4 -y
-#choco install notepadplusplus -y
+#choco install sublimetext4 -y
+choco install notepadplusplus -y
 
 # browsers
 Write-Host "====> Installing web browsers..."
@@ -65,22 +65,22 @@ choco install git-fork -y
 # choco install gitextensions -y
 
 # 3d development
-Write-Host "====> Installing 3D development softwares..."
-choco install blender -y #version 3.3.1
-choco install epicgameslauncher -y
-#choco install freecad -y
-choco install steam -y
-choco install unity-hub -y
-#choco install unity -y
-choco install renderdoc -y
-choco install InkScape -y
-choco install cuda -y
-# choco install vulkan-sdk -y
+#Write-Host "====> Installing 3D development softwares..."
+#choco install blender -y #version 3.3.1
+#choco install epicgameslauncher -y
+##choco install freecad -y
+#choco install steam -y
+#choco install unity-hub -y
+##choco install unity -y
+#choco install renderdoc -y
+#choco install InkScape -y
+#choco install cuda -y
+## choco install vulkan-sdk -y
 
 # ides
 Write-Host "====> Installing IDEs..."
 choco install vscode -y
-choco install visualstudio2019buildtools -y
+choco install visualstudio2022buildtools -y
 #choco install visualstudio2019community -y --package-parameters "--includeRecommended --locale en-US --passive --add Microsoft.VisualStudio.Component.CoreEditor --add Microsoft.VisualStudio.Workload.NetWeb --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.NetCoreTools --add Microsoft.VisualStudio.Workload.Python --add Microsoft.VisualStudio.Workload.NativeDesktop --add Microsoft.VisualStudio.Workload.NativeGame --add Microsoft.VisualStudio.Workload.NativeCrossPlat --add Component.GitHub.VisualStudio --add Component.Incredibuild --add Microsoft.VisualStudio.Workload.VisualStudioExtension --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.Universal"
 # choco install visualstudio2019professional -y --package-parameters "--includeRecommended --locale en-US --passive --add Microsoft.VisualStudio.Component.CoreEditor --add Microsoft.VisualStudio.Workload.NetWeb --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.NetCoreTools --add Microsoft.VisualStudio.Workload.Python --add Microsoft.VisualStudio.Workload.NativeDesktop --add Microsoft.VisualStudio.Workload.NativeGame --add Microsoft.VisualStudio.Workload.NativeCrossPlat --add Component.GitHub.VisualStudio --add Microsoft.VisualStudio.Workload.VisualStudioExtension --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.Universal"
 choco install visualstudio2022professional -y --package-parameters "--includeRecommended --locale en-US --passive --add Microsoft.VisualStudio.Component.CoreEditor --add Microsoft.VisualStudio.Workload.NetWeb --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.NetCoreTools --add Microsoft.VisualStudio.Workload.Python --add Microsoft.VisualStudio.Workload.NativeDesktop --add Microsoft.VisualStudio.Workload.NativeGame --add Microsoft.VisualStudio.Workload.NativeCrossPlat --add Component.GitHub.VisualStudio --add Microsoft.VisualStudio.Workload.VisualStudioExtension --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.Universal"
@@ -129,17 +129,19 @@ choco install vlc -y
 choco install vmware-workstation-player -y
 choco install vscode-drawio -y
 choco install wireshark -y
-choco install zoom -y
+#choco install zoom -y
+choco install beyondcompare
 
 # video/photo editing softwares
 Write-Host "====> Installing video/photo editing softwares..."
-# choco install adobe-creative-cloud -y # just for reminder there is no package like this
-# choco install adobe-lightroom -y # just for reminder there is no package like this
-# choco install adobe-photoshop -y # just for reminder there is no package like this
-# choco install deepmeta -y # just for reminder there is no package like this
-# choco install vero -y # just for reminder there is no package like this
-choco install rawtherapee -y
-choco install shotcut -y
-choco install nomacs -y
+## choco install adobe-creative-cloud -y # just for reminder there is no package like this
+## choco install adobe-lightroom -y # just for reminder there is no package like this
+## choco install adobe-photoshop -y # just for reminder there is no package like this
+## choco install deepmeta -y # just for reminder there is no package like this
+## choco install vero -y # just for reminder there is no package like this
+#choco install rawtherapee -y
+#choco install shotcut -y
+#choco install nomacs -y
+choco install paint.net
 
 Write-Host "=== Your development environment is ready to use! Enjoy! ==="
