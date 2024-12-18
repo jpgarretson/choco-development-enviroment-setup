@@ -20,7 +20,7 @@ choco install wsl-ubuntu-2004 --params "/InstallRoot:true" -y
 Write-Host "====> Installing core components..."
 # choco install cmder -y
 choco install powershell-core -y
-#choco install microsoft-windows-terminal -y
+choco install microsoft-windows-terminal -y
 choco install git -y
 choco install curl -y
 choco install wget -y
